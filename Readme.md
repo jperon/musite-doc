@@ -51,7 +51,7 @@ Dans le menu, à gauche de la page d'accueil, s'affichent :
 
 L'utilisateur non authentifié peut :
 
-- accéder en lecture à l'[historique](/_historique) du projet, où l'on peut
+- accéder en lecture à l'historique du projet, où l'on peut
   suivre les modifications successives subies par les fichiers du projet ;
 - télécharger le projet sous la forme d'une archive compressée au format `zip`.
 
