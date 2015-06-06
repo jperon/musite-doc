@@ -6,7 +6,11 @@ Présentation
 ------------
 
 [Musite](https://github.com/jperon/musite) est une sorte de wiki, destiné
-principalement à l'édition de documents musicaux.
+principalement à l'édition de documents musicaux. Il a été réalisé, en marge
+du [projet Gregorio](https://github.com/gregorio-project), en vue de faciliter
+l'édition d'ouvrages comportant des partitions grégoriennes (grâce à
+[Gregorio](http://gregorio-project.github.io)), mais aussi des partitions
+classiques (grâce à [Lilypond](http://lilypond.org)).
 
 Depuis la page d'accueil, vous pouvez :
 
@@ -92,3 +96,28 @@ celle du projet. Il y a cependant des différences :
 - outre le lien vers la racine du projet, un autre lien pointe vers le dossier
   parent ;
 - les actions disponibles s'adaptent aux caractéristiques d'un dossier.
+
+
+Document
+--------
+
+Depuis un projet ou un dossier, vous pouvez accéder aux divers documents. Musite
+s'adapte en fonction de l'extension du document ; si celui-ci n'a pas
+d'extension, ou si son extension est inconnue de musite, il est traité si
+possible comme un document texte. S'il s'agit d'un fichier binaire de type
+inconnu, il n'est pas possible d'en avoir l'aperçu, mais les autres actions
+sont disponibles.
+
+La page d'accueil du document est donc, s'il est connu, un aperçu
+de ce document ; s'il est inconnu, la source du document est présentée.
+
+Les actions disponibles sur un document sont :
+
+- pour les utilisateurs non authentifiés, l'aperçu, l'affichage de la source et
+  l'accès en lecture à l'historique ;
+- pour les éditeurs, l'édition, la copie, le déplacement et la suppression,
+  ainsi que l'accès en écriture à l'historique.
+
+En outre, certains types de documents proposent un export en différents
+formats : ceci permet, par exemple, d'imprimer une partition dans un format
+différent de celui qui est présenté sur l'aperçu du document.
