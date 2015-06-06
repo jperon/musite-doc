@@ -91,35 +91,35 @@ VersetC = \lyricmode {
 			\clef treble
 			\key g\major
 			{
-				\new Voice = "intro" {
-					\Intro
-				}
-				\break
+%				\new Voice = "intro" {
+%					\Intro
+%				}
+%				\break
 				\new Voice = "soprano" {
 					\voiceOne
 					\Soprano
 				}
-				\break
-				\new Voice = "couplets" {
-					\Couplets
-				}
+%				\break
+%				\new Voice = "couplets" {
+%					\Couplets
+%				}
 			}
 			\new Voice = "alto" {
 				\voiceTwo
-				s 8*25
+%				s 8*25
 				\Alto
 			}
 			>>
 		}
-		\new Lyrics \lyricsto intro {
-			\VersetA
-		}
+%		\new Lyrics \lyricsto intro {
+%			\VersetA
+%		}
 		\new Lyrics \lyricsto soprano {
 			\VersetB
 		}
-		\new Lyrics \lyricsto couplets {
-			\VersetC
-		}
+%		\new Lyrics \lyricsto couplets {
+%			\VersetC
+%		}
 		\new Staff {
 			<<
 			\set Staff.midiInstrument = "flute"
@@ -127,12 +127,12 @@ VersetC = \lyricmode {
 			\key g\major
 			\new Voice = "tenor" {
 				\voiceOne
-				s 8*25
+%				s 8*25
 				\Tenor
 			}          
 			\new Voice = "basse" {
 				\voiceTwo
-				s 8*25
+%				s 8*25
 				\Basse
 			}
 			>>
