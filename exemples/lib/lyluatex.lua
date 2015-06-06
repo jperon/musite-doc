@@ -145,12 +145,13 @@ function mkdirs(str)
     end
 end
 
+
 local fontdata = fonts.hashes.identifiers
 function fontinfo(id)
     local f = fontdata[id]
     if f then
         return f
-    end                                                                            
+    end
     return font.fonts[id]        
 end
 
