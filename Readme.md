@@ -24,6 +24,15 @@ Depuis la liste des projets, il est encore possible :
 - d'envoyer une archive `zip` contenant un projet déjà commencé par ailleurs,
   qui sera alors intégré à musite.
 
+Si vous voulez intégrer un projet pré-existant à musite, tenez compte de ce qui
+suit :
+
+- le dossier principal du projet doit être compressé au format `zip` ;
+- l'archive `zip` en question ne doit contenir, à la racine, que ce dossier ;
+- si ce dossier contient un sous-dossier `.git`, l'historique des modifications
+  antécédentes sera disponible depuis musite ; sinon, musite initialisera un
+  nouveau dépôt `git`, qui enregistrera les modifications subséquentes.
+
 Musite est traduit en anglais grâce à
 [gettext](https://www.gnu.org/software/gettext) ; il est parfaitement
 envisageable de le traduire en d'autres langues… dans la mesure où les
@@ -85,6 +94,9 @@ Toutes ces actions sont réversibles, à l'exception notable de la suppression d
 projet. Le cas échéant, pensez à profiter de la possibilité de télécharger un
 projet pour effectuer des sauvegardes…
 
+Pour l'intégration de fichiers ou archives pré-existants, voyez la section
+suivante.
+
 
 Dossier
 -------
@@ -96,6 +108,17 @@ celle du projet. Il y a cependant des différences :
 - outre le lien vers la racine du projet, un autre lien pointe vers le dossier
   parent ;
 - les actions disponibles s'adaptent aux caractéristiques d'un dossier.
+
+Notez bien ce qui suit à propos de l'intégration au sein de musite de documents
+existants :
+
+- pour l'envoi d'un **fichier isolé**, si vous ne cochez pas la case *Écraser le
+  fichier s'il existe*, musite s'assurera d'abord de l'existence d'un fichier
+  portant le même nom ;
+- en revanche, pour l'intégration d'une **archive** contenant une arborescence
+  (fichiers et dossiers), musite écrasera sans rien dire les éventuels fichiers
+  pré-existants. En cas d'erreur, il vous reste la possibilité d'utiliser les
+  fonctionnalités d'historique de musite…
 
 
 Document
