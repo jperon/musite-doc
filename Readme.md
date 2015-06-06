@@ -19,8 +19,8 @@ Depuis la page d'accueil, vous pouvez :
 
 Depuis la liste des projets, il est encore possible :
 
-- de cloner un projet existant (grâce à `git`, le gestionnaire de version utilisé
-  par musite ;
+- de cloner un projet existant
+  (grâce à `git`, le gestionnaire de version utilisé par musite) ;
 - d'envoyer une archive `zip` contenant un projet déjà commencé par ailleurs,
   qui sera alors intégré à musite.
 
