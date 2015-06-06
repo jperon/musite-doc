@@ -80,3 +80,15 @@ effectuer un éditeur :
 Toutes ces actions sont réversibles, à l'exception notable de la suppression du
 projet. Le cas échéant, pensez à profiter de la possibilité de télécharger un
 projet pour effectuer des sauvegardes…
+
+
+Dossier
+-------
+
+Depuis la page du projet, vous pouvez, en cliquant sur le nom d'un dossier,
+accéder à ce dernier. La page d'accueil du dossier est sensiblement la même que
+celle du projet. Il y a cependant des différences :
+
+- outre le lien vers la racine du projet, un autre lien pointe vers le dossier
+  parent ;
+- les actions disponibles s'adaptent aux caractéristiques d'un dossier.
