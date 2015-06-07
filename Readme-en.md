@@ -6,9 +6,9 @@ Introduction
 ------------
 
 [Musite](https://github.com/jperon/musite) is a kind of wiki meant
-chiefly for editing musical documents. It has been created, not as
-part of the [Gregorio Project](https://github.com/gregorio-project),
-but as a way to facilitate editing works which contain both Gregorian
+chiefly for editing musical documents. It has been created, in connection
+with the [Gregorio Project](https://github.com/gregorio-project),
+as a way to facilitate editing works which contain both Gregorian
 scores (made with [Gregorio](http://gregorio-project.github.io)) and
 classical scores (made with [Lilypond](http://lilypond.org)).
 
