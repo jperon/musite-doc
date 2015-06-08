@@ -106,7 +106,7 @@ end
 
 function calcul_facteur(facteur)
     if facteur == 0 then
-        facteur = fontinfo(font.current()).size/39321.6
+        facteur = fontinfo(font.current()).size/50000
     end
     return facteur
 end
