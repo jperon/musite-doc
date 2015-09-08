@@ -31,7 +31,7 @@ Exemple :
 
 ```
 admin	admin,chef
-editeurs	admin,chef,sousfifre
+editeurs	chef,sousfifre,imaginatif
 ```
 
 Notez bien :
