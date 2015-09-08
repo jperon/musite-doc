@@ -156,6 +156,6 @@ Formats pris en charge
 - [lilypond](www.lilypond.org/text-input.fr.html) pour les partitions
   classiques ;
 - [latex](www.latex-project.org) pour la mise en page d'ouvrages ;
-- [markdown](http://commonmark.org) pour le texte enrichi ;
+- [markdown](http://pandoc.org/README.html#pandocs-markdown) pour le texte enrichi ;
 - txt pour les documents textes ; tout document de type inconnu peut être traité
   comme simple texte s'il n'est pas binaire.
