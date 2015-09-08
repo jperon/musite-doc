@@ -153,9 +153,9 @@ Formats pris en charge
 
 - [gabc](http://gregorio-project.github.io/gabc/index.html) pour les partitions
   grégoriennes ;
-- [lilypond](www.lilypond.org/text-input.fr.html) pour les partitions
+- [lilypond](http://www.lilypond.org/text-input.fr.html) pour les partitions
   classiques ;
-- [latex](www.latex-project.org) pour la mise en page d'ouvrages ;
+- [latex](http://www.latex-project.org) pour la mise en page d'ouvrages ;
 - [markdown](http://pandoc.org/README.html#pandocs-markdown) pour le texte enrichi ;
 - txt pour les documents textes ; tout document de type inconnu peut être traité
   comme simple texte s'il n'est pas binaire.
