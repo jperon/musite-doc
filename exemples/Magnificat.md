@@ -3,7 +3,7 @@ title: Magníficat
 author: ton VI royal
 music:
   gregorio:
-    staffsize: 14
+    staffsize: 13
   lilypond:
     staffsize: 14
     width: 180mm
