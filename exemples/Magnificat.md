@@ -1,7 +1,7 @@
 ---
 title: Magníficat
 author: ton VI royal
-musique:
+music:
   gregorio:
     staffsize: 13
   lilypond:
