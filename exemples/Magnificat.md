@@ -5,7 +5,7 @@ music:
   gregorio:
     staffsize: 14
   lilypond:
-    staffsize: 15
+    staffsize: 14
     width: 180mm
 ...
 
