@@ -1,4 +1,7 @@
-\RequirePackage{luatex85}
+\def\gettexliveversion#1(#2 #3 #4#5#6#7#8)#9\relax{#4#5#6#7}
+\edef\texliveversion{\expandafter\gettexliveversion\pdftexbanner\relax}
+\ifnum\texliveversion=2016\RequirePackage{luatex85}\fi
+
 \documentclass[%
 fontsize=12%
 ,a5paper%
