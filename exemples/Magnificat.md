@@ -1,6 +1,11 @@
 ---
 title: Magníficat
 author: ton VI royal
+music:
+  gregorio:
+    staffsize: 13
+  lilypond:
+    staffsize: 15
 ...
 
 `gabc/Magnificat-6-royal-V1`{.gabc}
