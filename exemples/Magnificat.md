@@ -12,4 +12,4 @@ music:
 
 `ly/Magnificat`{.ly}
 
-`gabc/Magnificat-6-royal-V3`{.gabc}
+`gabc/Magnificat-6-royal-V3`{.gabc initiallines=0}
